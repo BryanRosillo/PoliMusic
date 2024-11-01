@@ -4,7 +4,7 @@
 Dim conn, rs, sql, username, password
 
 Set conn = Server.CreateObject("ADODB.Connection")
-conn.Open "Provider=SQLOLEDB;Data Source=localhost,1433;Initial Catalog=BDD_PoliMusic_GR2;User ID=sa;Password=.Lahobr2001;"
+conn.Open "Provider=SQLOLEDB;Data Source=localhost,1433;Initial Catalog=BDD_PoliMusic_GR2;User ID=sa;Password=PASSWORD;"
 
 
 username = Request.Form("username")

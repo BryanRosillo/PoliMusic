@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppPoliMusicV1", "WebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppPoliMusicV2", "WebAppPoliMusicV2\WebAppPoliMusicV2.csproj", "{78938901-B36D-45D5-8D36-E941EAE7A3FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAppPolimusicV3_ASPX_F2.0_NLAYER", "WebAppPolimusicV3_ASPX_F2.0_NLAYER", "{881A48D1-797D-4C6B-9B0B-8315532D7A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.PoliMusicV3", "DataAccess.PoliMusicV3\DataAccess.PoliMusicV3.csproj", "{D4F67658-803D-4BD3-BFB8-FF7736546643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer.PoliMusicV3", "EntityLayer.PoliMusicV3\EntityLayer.PoliMusicV3.csproj", "{11BBCC24-EA5C-46BC-8343-14438B4C4E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinesLayer.PoliMusicV3", "BusinesLayer.PoliMusicV3\BusinesLayer.PoliMusicV3.csproj", "{12247994-6946-4124-80E3-FC61FDD48E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppPoliMusicV3", "WebAppPoliMusicV3\WebAppPoliMusicV3.csproj", "{518F1FFF-1CA6-427C-930B-B710A6BDB22D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +31,31 @@ Global
 		{78938901-B36D-45D5-8D36-E941EAE7A3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78938901-B36D-45D5-8D36-E941EAE7A3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78938901-B36D-45D5-8D36-E941EAE7A3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F67658-803D-4BD3-BFB8-FF7736546643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F67658-803D-4BD3-BFB8-FF7736546643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F67658-803D-4BD3-BFB8-FF7736546643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F67658-803D-4BD3-BFB8-FF7736546643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BBCC24-EA5C-46BC-8343-14438B4C4E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BBCC24-EA5C-46BC-8343-14438B4C4E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BBCC24-EA5C-46BC-8343-14438B4C4E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BBCC24-EA5C-46BC-8343-14438B4C4E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12247994-6946-4124-80E3-FC61FDD48E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12247994-6946-4124-80E3-FC61FDD48E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12247994-6946-4124-80E3-FC61FDD48E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12247994-6946-4124-80E3-FC61FDD48E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518F1FFF-1CA6-427C-930B-B710A6BDB22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518F1FFF-1CA6-427C-930B-B710A6BDB22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518F1FFF-1CA6-427C-930B-B710A6BDB22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518F1FFF-1CA6-427C-930B-B710A6BDB22D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4F67658-803D-4BD3-BFB8-FF7736546643} = {881A48D1-797D-4C6B-9B0B-8315532D7A46}
+		{11BBCC24-EA5C-46BC-8343-14438B4C4E42} = {881A48D1-797D-4C6B-9B0B-8315532D7A46}
+		{12247994-6946-4124-80E3-FC61FDD48E58} = {881A48D1-797D-4C6B-9B0B-8315532D7A46}
+		{518F1FFF-1CA6-427C-930B-B710A6BDB22D} = {881A48D1-797D-4C6B-9B0B-8315532D7A46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD0A5317-A8BC-4486-9B8F-77539E41F8D2}
